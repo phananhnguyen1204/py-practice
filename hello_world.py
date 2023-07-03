@@ -36,3 +36,15 @@ print(string_reverse(trial))
 
 a=[[96],[69]]
 print("".join(list(map(str,a))))
+
+class MyFirstClass:
+  def __init__(self) -> None:
+    pass
+  def hello(self,m,n):
+    self.x=m,
+    self.y=n
+
+a= MyFirstClass()
+a.hello(5,7)
+print(a)
+print(a.x)
